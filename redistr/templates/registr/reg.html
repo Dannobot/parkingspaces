@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+
+    <meta charset="UTF-8">
+      
+    <title>Регістрація</title>
+
+    <link href="https://maxcdn.bootstrapcdn.com/bootswatch/3.3.7/cosmo/bootstrap.min.css" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Inconsolata" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Indie+Flower" rel="stylesheet">
+
+    
+    <style>
+   
+    </style>
+
+</head>
+<body>
+    
+    <div class="general-container">
+        <div class="container top-container">
+            <div class="row">
+                <div class="col-lg-5 col-lg-offset-4">
+                <br>
+                <br>
+                    <h1 class="title text-center "><br>
+                                                   Вкажіть свої дані:</h1>
+                       <br>
+                      <fieldset>
+                        <form action="" method="post" class="control-label text-left">
+						     {% csrf_token %}
+                        
+                             <div class="form-group">
+                                  <input type="email" name="{{ form.email.name }}" class="form-control" placeholder="Email">
+                              </div>
+                        
+                               <div class="form-group " >
+                                    <input name="{{ form.name.name }}" class="form-control" placeholder="Name">
+                                </div>
+						
+						       <div class="form-group " >
+                                   <input type="password" name="{{ form.password.name }}" class="form-control" placeholder="Password">
+                               </div>
+                        
+                        <div class="form-group">
+                        <div class="form-inline">
+                        <button type="submit" class="btn btn-primary btn-orange">Відправити</button>
+                        <button type="reset" class="btn btn-default">Очистити</button>
+                        </div>
+                        </div>
+                        </form>
+                      </fieldset>
+
+                </div>
+            </div>
+        </div>
+    </div>
+
+    
+    
+    
+    <script src="https://code.jquery.com/jquery-2.1.4.min.js"></script>
+    <!-- Latest compiled and minified JavaScript -->
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js" integrity="sha384-0mSbJDEHialfmuBBQP6A4Qrprq5OVfW37PRR3j5ELqxss1yVqOtnepnHVP9aJ7xS" crossorigin="anonymous"></script>
+
+
+</body>
+</html>
