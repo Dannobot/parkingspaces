@@ -1,0 +1,27 @@
+.label-text {
+    color: white !important;
+}
+
+.form-control {
+    width: 33%;
+}
+.form-control:hover {
+    border-color: #fffc00;
+}
+.form-control:focus {
+    border-color: #fffc00;
+}
+
+.btn {
+    color: white !important;
+}
+.btn:hover {
+    border-image: linear-gradient(20deg, #fffc00 8%, #d4d3dd 65%) !important;
+    border-image-slice: 1 !important;
+    background: linear-gradient(20deg, #fffc00 8%, #d4d3dd 65%);
+	-webkit-background-clip: text;
+	-webkit-text-fill-color: transparent;
+}
+.border {
+    border-radius: 0;
+}

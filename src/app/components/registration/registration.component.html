@@ -1,0 +1,41 @@
+<div class="container">
+  <form #UData="ngForm" (ngSubmit)="register(UData.value)">
+
+    <div class="form-group">
+      <label for="firstName" class="label-text">First Name</label>
+      <input type="text" class="form-control" id="firstName" placeholder="Name" name="name" ngModel>
+      <label for="secondName" class="label-text">Last Name</label>
+      <input type="text" class="form-control" id="secondName" placeholder="Surname" name="surname" ngModel>
+    </div>
+    
+    <div class="form-group">
+      <label for="userName" class="label-text">Username</label>
+      <input type="text" class="form-control" id="userName" placeholder="Username" name="username" ngModel>
+    </div>
+
+    <div class="form-group">
+      <!-- <label for="userEmail" class="label-text">Email Address</label>
+      <input type="email" class="form-control" id="userEmail" placeholder="Email" ngModel>
+      <label for="userEmailConfirm" class="label-text">Confirm Email Address</label>
+      <input type="email" class="form-control" id="userEmailConfirm" placeholder="Email" ngModel> -->
+      <label for="userEmail" class="label-text">Email address</label>
+      <input type="email" class="form-control" id="userEmail" placeholder="Your email" name="email" ngModel>
+    </div>
+
+    <div class="form-group">
+      <!-- <label for="userPassword" class="label-text">Password</label>
+      <input type="password" class="form-control" id="userPassword" placeholder="Password" ngModel>
+      <label for="userPasswordConfirm" class="label-text">Confirm Password</label>
+      <input type="password" class="form-control" id="userPasswordConfirm" placeholder="Password" ngModel> -->
+      <label for="userPassword" class="label-text">Password</label>
+      <input type="password" class="form-control" id="userPassword" placeholder="Password" name="password" ngModel>
+    </div>
+
+    <button type="submit" class="btn border">Sign Up</button>
+
+  </form>
+
+      <!-- Verification -->
+      <app-verification></app-verification>
+
+</div>

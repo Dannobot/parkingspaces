@@ -1,0 +1,21 @@
+.main-text {
+    margin-top: 17vw;
+    margin-bottom: 25vw;
+    color: white;
+    font-size: 15vh;
+}
+.main-text:hover {
+	background: linear-gradient(20deg, #fffc00 8%, #d4d3dd 65%);
+	-webkit-background-clip: text;
+	-webkit-text-fill-color: transparent;
+}
+
+h1 {
+    margin-bottom: 5vw;
+    font-size: 5vw !important;
+}
+
+p {
+    font-size: 22px;
+    text-align: center;
+}

@@ -1,0 +1,18 @@
+@import url('https://fonts.googleapis.com/css?family=Lato|Pacifico|Righteous|Roboto+Condensed|Ubuntu|ZCOOL+QingKe+HuangYou');
+
+html, body {
+    height: 100vh;
+    width: 100vw;
+    max-height: 100%;
+    max-width: 100%;
+    background-image: url('src/assets/images/1.png');
+    background-position: 0% 9%;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+* {
+    font-family: "ZCOOL QingKe HuangYou", cursive;
+    margin: 0;
+    padding: 0;
+}

@@ -1,0 +1,21 @@
+<div class="container">
+  <form #UData="ngForm" (ngSubmit)="loginBoi(UData.value)">
+
+    <div class="form-group">
+      <label for="userEmail" class="label-text">Email Address</label>
+      <input type="email" class="form-control" id="userEmail" placeholder="Your email" name="email" ngModel>
+    </div>
+
+    <div class="form-group">
+      <label for="userPassword" class="label-text">Password</label>
+      <input type="password" class="form-control" id="userPassword" placeholder="Password" name="password" ngModel>
+    </div>
+
+    <button type="submit" class="btn border">Login</button>
+
+      <div class="form-group" *ngIf="badVerification">
+          <label class="label-text">Could not log you in.  Please verify your username or password and then attempt to sign in.</label>
+      </div>
+
+  </form>
+</div>

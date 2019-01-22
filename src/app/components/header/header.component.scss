@@ -1,0 +1,46 @@
+.nav-link .navbar-brand {
+    color: white !important;
+}
+.navbar-brand {
+    font-size: 2.8vw !important;
+}
+.navbar-brand:hover {
+    display: table;
+	background: linear-gradient(20deg, #fffc00 8%, #d4d3dd 65%);
+	-webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+.nav-link {
+    font-size: 1.2vw;
+    letter-spacing: 0.1em !important;
+    color: white !important;
+}
+.nav-link:hover {
+	background: linear-gradient(20deg, #fffc00 8%, #d4d3dd 65%);
+	-webkit-background-clip: text;
+	-webkit-text-fill-color: transparent;
+}
+
+.dropdown:hover>.dropdown-menu {
+    display: block;
+}
+.dropdown-item {
+    letter-spacing: 0.1em !important;
+}
+.dropdown-item:hover {
+    background-color: #eff2ae;
+}
+.form-control:hover {
+    border-color: #fffc00;
+}
+.form-control:focus {
+    border-color: #fffc00;
+}
+
+.btn:hover {
+    border-image: linear-gradient(20deg, #fffc00 8%, #d4d3dd 65%) !important;
+    border-image-slice: 1 !important;
+}
+.border {
+    border-radius: 0;
+}

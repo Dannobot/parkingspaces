@@ -1,0 +1,10 @@
+
+<form #confc = "ngForm" (ngSubmit)="AuthCode(confc.value)">
+
+<div class="form-group">
+  <label for="emailConfirm" class="label-text">Confirm Your Email</label>
+  <input type="text" class="form-control" id="emailConfirm" placeholder="Your Code" name="emailconfirm" ngModel>
+</div>
+
+<button type="submit" class="btn border">Confirm</button>
+</form>
